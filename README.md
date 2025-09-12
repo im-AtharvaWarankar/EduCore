@@ -1,0 +1,1 @@
+EduCore is a backend beast that turns the messy world of academics into something clean, simple, and actually fun to manage. Think of it as the engine that keeps a whole university running , from students and staff to courses and departments ,all in one place. It’s built to be smooth, reliable, and ready to grow with anything you throw at it.
