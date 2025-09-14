@@ -2,9 +2,6 @@ from rest_framework import serializers
 from core import models
 
 class UniversitySerializer(serializers.ModelSerializer):
-    university=serializers.SlugRelatedField(
-        queryset=models.University.objects.all(),
-        slug_field='name')
     class Meta:
         model = models.University
         fields = '__all__'
