@@ -20,7 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-t%hujkcamp78sna2_vb2v69uu&fwl0+%rne2l)v4z@n%@9%$9('
+=======
+SECRET_KEY = 'django-insecure-9k^1ph9(r#ul9!!l2a)w7l2dsld^osfvmzvgqb5tmd859v0^wg'
+>>>>>>> 37dac2585a83b08b1446e1c5dc0bcc315c31b66d
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,9 +41,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'core',
     'rest_framework',
     'django_filters'
+=======
+    'rest_framework',
+    'core',
+>>>>>>> 37dac2585a83b08b1446e1c5dc0bcc315c31b66d
 ]
 
 MIDDLEWARE = [
@@ -124,6 +133,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+<<<<<<< HEAD
 
 REST_FRAMEWORK ={ 
     'DEFAULT_PAGINATION_CLASS':'core.paginations.CustomCursorPagination',
@@ -137,3 +147,11 @@ REST_FRAMEWORK ={
     ],
 
 }
+=======
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ]
+}
+>>>>>>> 37dac2585a83b08b1446e1c5dc0bcc315c31b66d
